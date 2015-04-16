@@ -1,4 +1,0 @@
-{% block content %}{% endblock %} {% if error %}
-Error: {{ error }}
-
-{% endif %} {% for message in get_flashed_messages() %} {{ message }} {% endfor %}
